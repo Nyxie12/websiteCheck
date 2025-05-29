@@ -51,6 +51,10 @@ class ImageChecker:
             if self.is_base64_image(img_url):
                 return True, None, None
 
+            # Skip SVG files as they are vector graphics
+            if img_url.lower().endswith('.svg'):
+                return True, None, None
+
             response = requests.get(img_url, timeout=10)
             if response.status_code == 200:
                 # Try to open the image to verify it's valid

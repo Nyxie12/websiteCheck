@@ -1,0 +1,6 @@
+2025-05-29 14:42:03,861 - INFO - Starting image check...
+2025-05-29 14:42:06,507 - ERROR - Error checking image https://appointmentwebsite.instawp.xyz/wp-content/uploads/2024/12/payments.svg: cannot identify image file <_io.BytesIO object at 0x106ef6c50>
+2025-05-29 14:42:06,511 - INFO - All main content images are rendering properly
+2025-05-29 14:42:53,741 - INFO - Script stopped by user
+2025-05-29 14:42:56,238 - INFO - Starting image check...
+2025-05-29 14:42:57,916 - INFO - All main content images are rendering properly
